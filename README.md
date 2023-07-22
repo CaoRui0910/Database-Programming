@@ -20,3 +20,11 @@ In this project, C++ was utilized to interact with a Postgres database and imple
 - main.cpp: The main function. This file implement code which will setup the database on each execution of the program. Specifically, it drop (if needed) and add each table to the database (named ACC_BBALL), and then read information from the source text files and add rows to each table as appropriate.
 - query_funcs.h and query_funcs.cpp: implement functions to interact with the database.
 - exerciser.h and exerciser.cpp: add code in the exercise() function to test query functions. The exercise() function is called from main() after the database is initialized.
+
+
+### ORM (SQLAlchemy and Python)
+- Choose one ORM library (SQLAlchemy) and implement the five queries shown in the previous statement.
+
+
+
+
