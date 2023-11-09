@@ -6,7 +6,7 @@
 1. [Datatbase](#Datatbase)
 2. [Functions](#Functions)
 3. [Notes](#Notes)
-4. [ORM (SQLAlchemy and Python)](#ORM (SQLAlchemy and Python))
+4. [ORM](#ORM (SQLAlchemy and Python))
 
 ### Datatbase
 - PLAYER (PLAYER_ID, TEAM_ID, UNIFORM_NUM, FIRST_NAME, LAST_NAME, MPG, PPG, RPG, APG, SPG, BPG)
