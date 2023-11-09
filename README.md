@@ -1,6 +1,8 @@
 # Database-Programming
 - In this project, C++ was utilized to interact with a Postgres database and implement various functions.
 - Also, used ORM (SQLAlchemy and Python) to interact with a Postgres database and implement various functions.
+- [Detailed description](https://github.com/CaoRui0910/Database-Programming/blob/main/Database%20Programming.pdf)
+  - ORM (SQLAlchemy and Python) is "Extra Credit" in this description.
 
 ### Datatbase
 - PLAYER (PLAYER_ID, TEAM_ID, UNIFORM_NUM, FIRST_NAME, LAST_NAME, MPG, PPG, RPG, APG, SPG, BPG)
