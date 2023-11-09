@@ -2,6 +2,12 @@
 - In this project, C++ was utilized to interact with a Postgres database and implement various functions.
 - Also, used ORM (SQLAlchemy and Python) to interact with a Postgres database and implement various functions.
 
+### Table of Contents
+1. [Datatbase](#Datatbase)
+2. [Functions](#Functions)
+3. [Notes](#Notes)
+4. [ORM (SQLAlchemy and Python)](#ORM (SQLAlchemy and Python))
+
 ### Datatbase
 - PLAYER (PLAYER_ID, TEAM_ID, UNIFORM_NUM, FIRST_NAME, LAST_NAME, MPG, PPG, RPG, APG, SPG, BPG)
 - TEAM (TEAM_ID, NAME, STATE_ID, COLOR_ID, WINS, LOSSES)
@@ -16,7 +22,7 @@
 - query5(): show first name and last name of each player, and team name and number of wins for each team that has won more than the indicated number of games
 
 
-### Note
+### Notes
 - Database source text files: player.txt, team.txt, state.txt, color.txt.
 - main.cpp: The main function. This file implement code which will setup the database on each execution of the program. Specifically, it drop (if needed) and add each table to the database (named ACC_BBALL), and then read information from the source text files and add rows to each table as appropriate.
 - query_funcs.h and query_funcs.cpp: implement functions to interact with the database.
